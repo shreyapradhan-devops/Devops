@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DevOps Dashboard</title>
+</head>
+<body>
+  <h1>DevOps Dashboard</h1>
+  <button onclick="loadData()">Get Info</button>
+  <pre id="output"></pre>
+
+<script>
+function loadData() {
+  fetch("http://43.205.120.157:30008/api/info")
+  .then(res => res.json())
+  .then(data => {
+    document.getElementById("output").innerText =
+      JSON.stringify(data, null, 2);
+  });
+}
+</script>
+</body>
+</html>
