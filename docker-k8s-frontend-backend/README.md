@@ -177,45 +177,7 @@ Runtime debugging using kubectl logs
 
 Rollout restarts & image updates
 
-📈 Potential Improvements
 
-Replace NodePort with LoadBalancer
-
-Implement Ingress Controller
-
-Add HTTPS with cert-manager
-
-Introduce Horizontal Pod Autoscaler
-
-Add CI/CD pipeline (GitHub Actions)
-
-Package using Helm charts
-
-Add Prometheus + Grafana monitoring
-
-🏆 Resume Summary (Professional Version)
-
-Cloud-Native Application Deployment using Docker & Kubernetes on AWS
-
-Designed and deployed a containerized full-stack application on AWS EC2.
-
-Built Docker images and managed versioning via Docker Hub.
-
-Configured Kubernetes Deployments and NodePort Services.
-
-Debugged networking, CORS, and selector configuration issues.
-
-Exposed services securely through AWS Security Groups.
-
-Demonstrated practical understanding of container orchestration and cloud networking.
-
-📚 What This Project Proves
-
-This project validates:
-
-Practical Kubernetes knowledge
-
-Real-world debugging capability
 
 Cloud infrastructure understanding
 
